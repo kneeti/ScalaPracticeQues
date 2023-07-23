@@ -1,0 +1,18 @@
+// In this example this returns a String.
+// And tail returns a new list of all elements excluding the head (so elements 2 on).
+val ids = List("Antartica","Asia","Africa")
+println(ids)
+
+//The head is the first element in the list
+val head = ids.head
+println(head)
+
+// The tail is a list of all elements except the first.
+println(ids.tail)
+println(ids.tail.length)
+
+Output
+List(Antartica, Asia, Africa)
+Antartica
+List(Asia, Africa)
+2
