@@ -1,0 +1,16 @@
+//Map function. With map, we apply a function to each element in a list.
+// A new list is created with the results of those function calls.
+// The lambda expression uses "_" as the argument.
+// Here We call map() on a string list. We call toUpperCase() on all elements, 
+// and the resulting list has uppercased color names.
+
+//A list of strings
+val colors = List("red","blue","green","purple")
+// Use map to uppercase all strings in the list.
+        // ... The underscore is each variable encountered.
+val result = colors.map(_.toUpperCase())
+println(result)
+
+
+Output
+List(RED, BLUE, GREEN, PURPLE)
