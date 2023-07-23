@@ -1,0 +1,21 @@
+//Find the Last element of the list in Scala
+//Create a string list 
+val names = List("cat","dog","bird","fish")
+//print the list 
+println(names)
+//Print the element count (the list size)
+println(names.length)
+//Access the first and then last elements 
+val first = names(0)
+println(first)
+
+val last = names(names.length-1)
+println(last)
+
+
+Output
+List(cat, dog, bird, fish)
+4
+cat
+fish
+
