@@ -1,0 +1,14 @@
+ // Create two String lists.
+        val positions1 = List("top", "bottom")
+        val positions2 = List("left", "right")
+        println(positions1)
+        println(positions2)
+        
+        // Combine the two lists with an operator.
+        val positions3 = positions1 ++ positions2
+        println(positions3)
+
+Output
+List(top, bottom)
+List(left, right)
+List(top, bottom, left, right)
