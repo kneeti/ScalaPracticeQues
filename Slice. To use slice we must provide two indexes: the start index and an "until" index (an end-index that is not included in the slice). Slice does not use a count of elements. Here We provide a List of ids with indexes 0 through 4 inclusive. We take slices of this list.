@@ -1,0 +1,19 @@
+ val ids = List(20, 21, 22, 23, 24)
+        // indexes:
+        // 0 = 20
+        // 1 = 21
+        // 2 = 22
+        // 3 = 23
+        // 4 = 24
+        
+        // Take slice from index 2 until 4 (excludes 4).
+        val result1 = ids.slice(2, 4)
+        println(result1)
+        
+        // Take slice from index 0 until 3.
+        val result2 = ids.slice(0, 3)
+        println(result2)
+
+Output
+List(22, 23)
+List(20, 21, 22)
