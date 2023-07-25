@@ -1,0 +1,14 @@
+//Add to start. With "::" we add an element to the beginning of a list.
+//We combine an element with an existing list. To combine two lists, another operator (with two pluses) can be used.
+val verbs1 = List("open", "search", "close", "sort")
+        
+        // Add a string to the list's start.
+        val verbs2 = "mix" :: verbs1
+        
+        // Print our lists.
+        println(verbs1)
+        println(verbs2)
+
+output
+List(open, search, close, sort)
+List(mix, open, search, close, sort)
