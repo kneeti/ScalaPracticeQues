@@ -1,0 +1,17 @@
+//SplitAt. This method divides a list into two parts. We specify the index at which we want the split to occur. A tuple (containing two lists) is returned.
+//Tip We unpack our tuple immediately after calling splitAt. This syntax form makes it easy to use the two resulting lists.
+
+// This list contains four Booleans.
+        val list = List(true, false, true, true)
+        
+        // Split this list at index 2 (before the third element).
+        // ... This returns a tuple containing two lists.
+        val (left, right) = list.splitAt(2)
+        
+        // Print results of splitAt.
+        println(left)
+        println(right)
+
+Output
+List(true, false)
+List(true, true)
